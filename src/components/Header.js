@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Header = () => {
     return (
-        <div>
-            
-        </div>
+        <h1>
+            Expense Tracker by Kashan Ahmed
+        </h1>
     )
 }
