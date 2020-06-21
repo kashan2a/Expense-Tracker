@@ -11,6 +11,7 @@ export const TransactionHistory = () => {
                 </li>
                 <li className = "minus">
                     Bought Books <span>-$100</span>
+                    <button className="delete-btn">-</button>
                 </li>
             
             </ul>
