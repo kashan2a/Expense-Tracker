@@ -12,13 +12,12 @@ export const AddTransaction = () => {
                     <input type = "text" id = "description" placeholder = "Transactions"></input>
                 </div>
                 <div className = "form-control">
-                    <label htmlFor= "TransactionAmount">
+                    <label htmlFor= "transactionamount">
                         Transaction Ammount
                     </label>
-                    <input type = "number"
-                           id = "TransactionAmount"
-                           placeholder = 
+                    <input type = "number" id = "transactionamount" placeholder = "Amount"></input>
                 </div>
+            <button className="btn">Add Trasaction</button>
             </form>
         </div>
     )
