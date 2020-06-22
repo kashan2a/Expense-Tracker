@@ -14,9 +14,7 @@ export const AddTransaction = () => {
             description,
             transactionAmount: +transactionAmount
         }
-
         addTransaction(newTransaction);
-
     }
     return (
         <div>
