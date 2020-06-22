@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import {GlobalProvider} from './context/GlobalState'
+
 import { Header } from './components/Header'
 import { Balance } from './components/Balance'
 import { AccountSummary} from './components/AccountSummary'
@@ -9,6 +11,7 @@ import { AddTransaction} from './components/AddTransaction'
 function App() {
   return (
     <div>
+    <GlobalProvider>
       <Header/>
       <div className="container">
         <Balance/>
@@ -16,6 +19,7 @@ function App() {
         <TransactionHistory/>
         <AddTransaction/>
       </div>
+    </GlobalProvider>
     </div>
   );
 }
